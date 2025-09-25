@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karim El Otmani's Portfolio - Data & Excel Specialist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-bg {
+            background-color: #111827;
+            background-image: radial-gradient(circle at 1px 1px, #374151 1px, transparent 0);
+            background-size: 20px 20px;
+        }
+        .project-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold text-gray-900">
+                <a href="#">Karim El Otmani</a>
+            </div>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#about" class="text-gray-600 hover:text-blue-600 transition">About</a>
+                <a href="#projects" class="text-gray-600 hover:text-blue-600 transition">Projects</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-600 transition">Contact</a>
+            </div>
+            <a href="#contact" class="hidden md:block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Contact Me</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main id="home">
+        <div class="hero-bg text-white">
+            <div class="container mx-auto px-6 py-24 md:py-32 text-center">
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">Karim El Otmani</h1>
+                <h2 class="text-2xl md:text-3xl font-light text-blue-300 mb-8">Data Specialist & Excel Master</h2>
+                <p class="max-w-3xl mx-auto text-lg text-gray-300 mb-10">
+                    I transform complex data into interactive dashboards and automated solutions that drive decision-making and optimize business processes.
+                </p>
+                <a href="#projects" class="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition">Discover My Projects</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 md:py-28 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Hello, I'm Karim.</h2>
+                <p class="text-lg text-gray-600 leading-relaxed mb-8">
+                    Passionate about problem-solving, I specialize in creating tools in Excel and Power BI to make data clear, accessible, and actionable. My goal is to build effective solutions that eliminate manual tasks, ensure reliable reporting, and provide valuable insights for business growth. Having worked at Amazon and as a freelancer, I know how to adapt to various needs and deliver concrete results.
+                </p>
+                <div class="flex justify-center flex-wrap gap-4">
+                    <span class="bg-blue-100 text-blue-800 text-sm font-medium px-4 py-2 rounded-full">Advanced Excel</span>
+                    <span class="bg-green-100 text-green-800 text-sm font-medium px-4 py-2 rounded-full">Power Query & Power Pivot</span>
+                    <span class="bg-yellow-100 text-yellow-800 text-sm font-medium px-4 py-2 rounded-full">VBA & Macros</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-sm font-medium px-4 py-2 rounded-full">Power BI</span>
+                    <span class="bg-pink-100 text-pink-800 text-sm font-medium px-4 py-2 rounded-full">Data Analysis</span>
+                    <span class="bg-gray-200 text-gray-800 text-sm font-medium px-4 py-2 rounded-full">Automation</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 md:py-28 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">My Main Projects</h2>
+                <p class="max-w-2xl mx-auto text-lg text-gray-600">
+                    Here is a selection of projects that illustrate my expertise in dashboard creation, analysis, and automation.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+                <!-- Project 1: Amazon -->
+                <div class="project-card bg-white rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://placehold.co/600x400/1E40AF/FFFFFF?text=Amazon+Dashboard" alt="Performance Dashboard for Amazon" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-sm text-blue-600 font-semibold">Operational Analysis</span>
+                        <h3 class="text-xl font-bold text-gray-900 mt-2 mb-3">Daily Performance Dashboard | Amazon</h3>
+                        <p class="text-gray-600 mb-4">
+                            Created an automated dashboard to analyze team performance and detect outliers (missed calls, extended breaks). This tool allowed managers to get a comprehensive overview and drill down into details to make informed decisions.
+                        </p>
+                        <div class="pt-4 border-t border-gray-200">
+                            <h4 class="font-semibold mb-2">Key Skills:</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-200 text-gray-800 text-xs px-3 py-1 rounded-full">Dashboard Building</span>
+                                <span class="bg-gray-200 text-gray-800 text-xs px-3 py-1 rounded-full">Automation</span>
+                                <span class="bg-gray-200 text-gray-800 text-xs px-3 py-1 rounded-full">KPI Analysis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Fitness Coach -->
+                <div class="project-card bg-white rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://placehold.co/600x400/34D399/FFFFFF?text=Sales+Dashboard" alt="Sales dashboard for a fitness coach" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-sm text-green-600 font-semibold">Business Intelligence</span>
+                        <h3 class="text-xl font-bold text-gray-900 mt-2 mb-3">Sales & Conversion Tracking | Fitness Coach</h3>
+                        <p class="text-gray-600 mb-4">
+                            Developed a comprehensive dashboard for a coach selling programs on Instagram. The solution tracks conversion rates by closer, identifies top-performing programs, and analyzes trends to optimize sales strategy.
+                        </p>
+                        <div class="pt-4 border-t border-gray-200">
+                            <h4 class="font-semibold mb-2">Key Skills:</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-200 text-gray-800 text-xs px-3 py-1 rounded-full">Interactive Dashboard</span>
+                                <span class="bg-gray-200 text-gray-800 text-xs px-3 py-1 rounded-full">Sales Analysis</span>
+                                <span class="bg-gray-200 text-gray-800 text-xs px-3 py-1 rounded-full">Visualization</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: TikTok Shop -->
+                <div class="project-card bg-white rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://placehold.co/600x400/8B5CF6/FFFFFF?text=Market+Analysis" alt="Market analysis for TikTok Shop" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-sm text-purple-600 font-semibold">Market Research</span>
+                        <h3 class="text-xl font-bold text-gray-900 mt-2 mb-3">Competitive Analysis | TikTok Shop Launch</h3>
+                        <p class="text-gray-600 mb-4">
+                            A scraping and analysis mission of a competitor's products (Lancôme) for a client launching their TikTok shop. I provided a detailed report with top-rated products and strategic proposals for their market entry.
+                        </p>
+                        <div class="pt-4 border-t border-gray-200">
+                            <h4 class="font-semibold mb-2">Key Skills:</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-200 text-gray-800 text-xs px-3 py-1 rounded-full">Web Scraping</span>
+                                <span class="bg-gray-200 text-gray-800 text-xs px-3 py-1 rounded-full">Data Analysis</span>
+                                <span class="bg-gray-200 text-gray-800 text-xs px-3 py-1 rounded-full">Reporting</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact" class="bg-gray-900 text-white py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-4">Let's work together</h2>
+            <p class="max-w-xl mx-auto text-lg text-gray-300 mb-8">
+                I am available for freelance missions and open to opportunities. Feel free to contact me.
+            </p>
+            <div class="flex justify-center items-center space-x-4">
+                <i data-lucide="mail" class="w-6 h-6 text-blue-400"></i>
+                <a href="mailto:Karim00el@gmail.com" class="text-xl text-blue-300 hover:underline">Karim00el@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
+
