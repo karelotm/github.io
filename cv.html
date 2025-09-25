@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karim El Otmani - CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 1000px;
+        }
+        .section-title {
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 16px;
+            font-weight: 700;
+            font-size: 1.125rem;
+            letter-spacing: 0.05em;
+            color: #111827;
+        }
+        .job-title {
+            font-weight: 600;
+            color: #1f2937;
+        }
+        .date-range {
+            font-size: 0.875rem;
+            color: #6b7280;
+            font-weight: 500;
+        }
+        .sidebar {
+            background-color: #f3f4f6;
+        }
+        .sidebar-section-title {
+            font-weight: 700;
+            color: #111827;
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+        }
+        .sidebar-section-title::before {
+            content: '';
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background-color: #4b5563;
+            margin-right: 10px;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #d1d5db;
+            object-fit: cover;
+            margin: 0 auto;
+        }
+        li {
+          padding-left: 1.25rem;
+          position: relative;
+        }
+        li::before {
+          content: '•';
+          position: absolute;
+          left: 0;
+          color: #4b5563;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+    <div class="container mx-auto bg-white shadow-lg rounded-lg overflow-hidden mt-8">
+        <div class="md:flex">
+            <!-- Left Sidebar -->
+            <aside class="w-full md:w-1/3 p-6 md:p-8 sidebar">
+                <img src="https://github.com/karelotm/github.io/blob/main/pic.png?raw=true" alt="Karim El Otmani" class="profile-pic mb-6">
+                
+                <section class="mb-8">
+                    <h2 class="sidebar-section-title">CONTACT</h2>
+                    <p class="text-sm text-gray-700 mb-2">Karim00el@gmail.com</p>
+                    <p class="text-sm text-gray-700 mb-2">06 64 15 15 60</p>
+                    <p class="text-sm text-gray-700 mb-2">Résidence badiaa 2, Villa n5, Harhoura</p>
+                    <p class="text-sm text-gray-700"><a href="https://karelotm.github.io/github.io/" target="_blank" class="text-blue-600 hover:underline break-all">https://karelotm.github.io/github.io/</a></p>
+                </section>
+
+                <section class="mb-8">
+                    <h2 class="sidebar-section-title">CERTIFICATIONS & SKILLS</h2>
+                    <p class="text-sm text-gray-700 font-semibold mb-1">SAP Technology Consultant 2024</p>
+                    <p class="text-sm text-gray-700 font-semibold mb-1">IBM Data Scientist Certificat 2024</p>
+                    <p class="text-sm text-gray-700 font-semibold mb-1">Google Business Intelligence Certificat 2024</p>
+                    <p class="text-sm text-gray-700 font-semibold mb-1">Google Data Analytics Certificat 2023</p>
+                    <p class="text-sm text-gray-700 font-semibold mb-3">Microsoft web developer certification, 2017</p>
+                    <p class="text-sm text-gray-800 bg-gray-200 p-2 rounded-md">SQL, Python, Power BI, Tableau, HTML, PHP, Numpy, Pandas, Matplotlib, Seaborn, Scikit-learn, Microsoft Office Suite</p>
+                </section>
+
+                <section class="mb-8">
+                    <h2 class="sidebar-section-title">EDUCATIONAL BACKGROUND</h2>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-gray-800">UIR</p>
+                        <p class="text-sm text-gray-600">Executive Master, Data Science for Finance</p>
+                        <p class="text-xs text-gray-500">2023 - 2025</p>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-gray-800">UNIVERSITY IBN TOUFAIL- ENSA</p>
+                        <p class="text-sm text-gray-600">Specialized university degree, Business Intelligence Statistics and Big Data</p>
+                        <p class="text-xs text-gray-500">2023 - 2024</p>
+                    </div>
+                     <div class="mb-4">
+                        <p class="text-sm font-bold text-gray-800">INTED- WES'SUP</p>
+                        <p class="text-sm text-gray-600">Bachelor's degree in SME Management</p>
+                        <p class="text-xs text-gray-500">2018</p>
+                    </div>
+                    <div>
+                        <p class="text-sm font-bold text-gray-800">ISTA TEMARA</p>
+                        <p class="text-sm text-gray-600">Specialized Technician Diploma in IT Development</p>
+                        <p class="text-xs text-gray-500">2016 - 2018</p>
+                    </div>
+                </section>
+                
+                <section>
+                    <h2 class="sidebar-section-title">LANGUAGES</h2>
+                    <p class="text-sm text-gray-700">Arabic (Native)</p>
+                    <p class="text-sm text-gray-700">French (Fluent)</p>
+                    <p class="text-sm text-gray-700">English (Professional)</p>
+                </section>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="w-full md:w-2/3 p-6 md:p-8">
+                <header class="mb-8">
+                    <h1 class="text-4xl font-bold text-gray-800">Karim El Otmani</h1>
+                    <h2 class="text-xl font-semibold text-gray-600">Customer Experience & Data Specialist</h2>
+                    <p class="mt-4 text-gray-700">
+                        Passionate about data and leveraging analytics to solve complex problems. Continuously acquiring new skills in Data Analysis, Business Intelligence, and Programming to drive business success.
+                    </p>
+                </header>
+
+                <section>
+                    <h3 class="section-title">PROFESSIONAL EXPERIENCE</h3>
+                    
+                    <div class="mb-6">
+                        <p class="date-range">MARCH 2025 - PRESENT</p>
+                        <h4 class="job-title">Customer Experience Specialist - Neo Financial</h4>
+                        <ul class="mt-2 text-sm text-gray-700 list-inside space-y-1">
+                            <li>Address a wide range of customer inquiries, including requests for account balances, available credit, and new product applications.</li>
+                            <li>Manage customer support for credit card changes and other account modifications.</li>
+                            <li>Provide primary support via phone, utilizing email to confirm transactions, gather missing information, and send guides to customers.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-6">
+                        <p class="date-range">OCTOBER 2024 - SEPTEMBER 2025</p>
+                        <h4 class="job-title">LMIR Specialist - Amazon</h4>
+                        <ul class="mt-2 text-sm text-gray-700 list-inside space-y-1">
+                            <li>Managed complex delivery incidents involving vehicles, injuries, and property damage.</li>
+                            <li>Provided support and solutions to drivers, customers, and community members.</li>
+                            <li>Coordinated responses with local authorities and internal teams during live events.</li>
+                            <li>Identified and escalated potential crisis situations to management.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-6">
+                        <p class="date-range">AUGUST 2024 - OCTOBER 2024</p>
+                        <h4 class="job-title">Resolution Specialist - Amazon</h4>
+                        <ul class="mt-2 text-sm text-gray-700 list-inside space-y-1">
+                            <li>Acted as a subject matter expert supporting customer service for French and Belgian markets.</li>
+                            <li>Managed communication between associates and leadership using ticketing systems.</li>
+                            <li>Worked with stakeholders to identify trends and reduce customer impact.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-6">
+                        <p class="date-range">OCTOBER 2022 - AUGUST 2024</p>
+                        <h4 class="job-title">Admin Specialist - Amazon</h4>
+                        <ul class="mt-2 text-sm text-gray-700 list-inside space-y-1">
+                            <li>Prepared and analyzed reports using Excel and Power BI for decision-making.</li>
+                            <li>Collected and cleaned data from diverse internal tools for business purposes.</li>
+                            <li>Monitored real-time performance metrics to ensure operational efficiency.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-6">
+                        <p class="date-range">AUGUST 2020 - JULY 2022</p>
+                        <h4 class="job-title">Assistant Store Manager - PIRI PIRI / YUZO (CANADA)</h4>
+                        <!-- You can add bullet points for this role if you'd like -->
+                    </div>
+
+                </section>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
+
