@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karim El Otmani - CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 1000px;
+        }
+        .section-title {
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+            margin-bottom: 16px;
+            font-weight: 700;
+            font-size: 1.125rem;
+            letter-spacing: 0.05em;
+            color: #111827;
+        }
+        .job-title {
+            font-weight: 600;
+            color: #1f2937;
+        }
+        .date-range {
+            font-size: 0.875rem;
+            color: #6b7280;
+            font-weight: 500;
+        }
+        .sidebar {
+            background-color: #f3f4f6;
+        }
+        .sidebar-section-title {
+            font-weight: 700;
+            color: #111827;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+        }
+        .sidebar-section-title::before {
+            content: '';
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background-color: #4b5563;
+            margin-right: 10px;
+            border-radius: 2px;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #d1d5db;
+            object-fit: cover;
+            margin: 0 auto;
+        }
+        li {
+            padding-left: 1.25rem;
+            position: relative;
+        }
+        li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #4b5563;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+        .contact-item svg {
+            width: 1rem;
+            height: 1rem;
+            margin-right: 0.75rem;
+            color: #4b5563;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+    <div class="container mx-auto bg-white shadow-lg rounded-lg overflow-hidden mt-8">
+        <div class="md:flex">
+            <!-- Colonne de Gauche -->
+            <aside class="w-full md:w-1/3 p-6 md:p-8 sidebar">
+                <img src="https://github.com/karelotm/github.io/blob/main/pic.png?raw=true" alt="Karim El Otmani" class="profile-pic mb-6">
+                
+                <section class="mb-8">
+                    <h2 class="sidebar-section-title">CONTACT</h2>
+                    <div class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        <p class="text-sm text-gray-700">Karim00el@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                        <p class="text-sm text-gray-700">06 64 15 15 60</p>
+                    </div>
+                    <div class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                        <p class="text-sm text-gray-700">Rés. Badiaa 2, Villa n°5, Harhoura</p>
+                    </div>
+                    <div class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899l4-4a4 4 0 000-5.656l-1.1 1.1"></path></svg>
+                        <p class="text-sm text-gray-700"><a href="https://karelotm.github.io/github.io/" target="_blank" class="text-blue-600 hover:underline break-all">Portfolio</a></p>
+                    </div>
+                </section>
+
+                <section class="mb-8">
+                    <h2 class="sidebar-section-title">CERTIFICATIONS & COMPÉTENCES</h2>
+                    <p class="text-sm text-gray-700 font-semibold mb-1">Consultant en Technologie SAP, 2024</p>
+                    <p class="text-sm text-gray-700 font-semibold mb-1">Certification IBM Data Scientist, 2024</p>
+                    <p class="text-sm text-gray-700 font-semibold mb-1">Certification Google Business Intelligence, 2024</p>
+                    <p class="text-sm text-gray-700 font-semibold mb-1">Certification Google Data Analytics, 2023</p>
+                    <p class="text-sm text-gray-700 font-semibold mb-3">Certification Développeur Web Microsoft, 2017</p>
+                    <p class="text-sm text-gray-800 bg-gray-200 p-2 rounded-md">SQL, Python, Power BI, Tableau, HTML, PHP, Numpy, Pandas, Matplotlib, Seaborn, Scikit-learn, Suite Microsoft Office</p>
+                </section>
+
+                <section class="mb-8">
+                    <h2 class="sidebar-section-title">PARCOURS ACADÉMIQUE</h2>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-gray-800">UIR</p>
+                        <p class="text-sm text-gray-600">Master Exécutif, Data Science pour la Finance</p>
+                        <p class="text-xs text-gray-500">2023 - 2025</p>
+                    </div>
+                    <div class="mb-4">
+                        <p class="text-sm font-bold text-gray-800">UNIVERSITÉ IBN TOUFAIL - ENSA</p>
+                        <p class="text-sm text-gray-600">DUS, Business Intelligence, Statistiques et Big Data</p>
+                        <p class="text-xs text-gray-500">2023 - 2024</p>
+                    </div>
+                     <div class="mb-4">
+                        <p class="text-sm font-bold text-gray-800">INTED - WES'SUP</p>
+                        <p class="text-sm text-gray-600">Licence en Gestion des PME</p>
+                        <p class="text-xs text-gray-500">2018</p>
+                    </div>
+                    <div>
+                        <p class="text-sm font-bold text-gray-800">ISTA TEMARA</p>
+                        <p class="text-sm text-gray-600">DTS en Développement Informatique</p>
+                        <p class="text-xs text-gray-500">2016 - 2018</p>
+                    </div>
+                </section>
+                
+                <section>
+                    <h2 class="sidebar-section-title">LANGUES</h2>
+                    <p class="text-sm text-gray-700">Arabe (Langue maternelle)</p>
+                    <p class="text-sm text-gray-700">Français (Courant)</p>
+                    <p class="text-sm text-gray-700">Anglais (Professionnel)</p>
+                </section>
+            </aside>
+
+            <!-- Contenu Principal -->
+            <main class="w-full md:w-2/3 p-6 md:p-8">
+                <header class="mb-8">
+                    <h1 class="text-4xl font-bold text-gray-800">Karim El Otmani</h1>
+                    <h2 class="text-xl font-semibold text-gray-600">Spécialiste en Expérience Client & Données</h2>
+                    <p class="mt-4 text-gray-700">
+                        Passionné par la data, je mets à profit mes compétences en analyse pour résoudre des problématiques complexes. Mon objectif est de développer continuellement mon expertise en Data Analyse, Business Intelligence et programmation afin de générer de la valeur et de contribuer au succès de l'entreprise.
+                    </p>
+                </header>
+
+                <section>
+                    <h3 class="section-title">EXPÉRIENCE PROFESSIONNELLE</h3>
+                    
+                    <div class="mb-6">
+                        <p class="date-range">MARS 2024 - PRÉSENT</p>
+                        <h4 class="job-title">Spécialiste Expérience Client - Neo Financial</h4>
+                        <ul class="mt-2 text-sm text-gray-700 list-inside space-y-1">
+                            <li>Traitement d'un large éventail de demandes clients (soldes, crédit disponible, nouvelles souscriptions).</li>
+                            <li>Gestion du support client pour les modifications de cartes de crédit et autres ajustements de comptes.</li>
+                            <li>Support principal par téléphone, complété par email pour confirmer les transactions et envoyer des guides d'utilisation.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-6">
+                        <p class="date-range">OCTOBRE 2022 - FÉVRIER 2024</p>
+                        <h4 class="job-title">Spécialiste LMIR (Last Mile Incident Resolution) - Amazon</h4>
+                        <ul class="mt-2 text-sm text-gray-700 list-inside space-y-1">
+                            <li>Gestion des incidents de livraison complexes impliquant véhicules, blessures et dommages matériels.</li>
+                            <li>Apport de solutions et de soutien aux chauffeurs, clients et membres de la communauté.</li>
+                            <li>Coordination des interventions avec les autorités locales et les équipes internes lors d'événements en direct.</li>
+                            <li>Identification et remontée des situations de crise potentielles à la direction.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-6">
+                        <p class="date-range">AOÛT 2021 - SEPTEMBRE 2022</p>
+                        <h4 class="job-title">Spécialiste Résolution - Amazon</h4>
+                        <ul class="mt-2 text-sm text-gray-700 list-inside space-y-1">
+                            <li>Rôle d'expert référent pour le support client des marchés français et belge.</li>
+                            <li>Gestion de la communication entre les associés et la direction via des systèmes de tickets.</li>
+                            <li>Collaboration avec les parties prenantes pour identifier les tendances et réduire l'impact client.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-6">
+                        <p class="date-range">AOÛT 2020 - JUILLET 2021</p>
+                        <h4 class="job-title">Spécialiste Administratif - Amazon</h4>
+                        <ul class="mt-2 text-sm text-gray-700 list-inside space-y-1">
+                            <li>Préparation et analyse de rapports décisionnels avec Excel et Power BI.</li>
+                            <li>Collecte et nettoyage de données provenant de divers outils internes à des fins commerciales.</li>
+                            <li>Suivi des indicateurs de performance en temps réel pour garantir l'efficacité opérationnelle.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-6">
+                        <p class="date-range">JANVIER 2019 - JUILLET 2020</p>
+                        <h4 class="job-title">Directeur Adjoint de Magasin - PIRI PIRI / YUZO (CANADA)</h4>
+                        <ul class="mt-2 text-sm text-gray-700 list-inside space-y-1">
+                            <li>Gestion des opérations quotidiennes du restaurant.</li>
+                            <li>Formation et supervision du personnel pour garantir un service client d'excellence.</li>
+                            <li>Suivi des inventaires et gestion des commandes de fournitures.</li>
+                        </ul>
+                    </div>
+
+                </section>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
